@@ -131,7 +131,7 @@ function fin() {
         $(".cakemake").animate({ "margin-top": "0px" });
     }, 1000);
     add_candle();
-    $("svg").addClass("text");
+    $(".svg").addClass("text");
 }
 
 function add_candle() {
@@ -141,7 +141,7 @@ function add_candle() {
     $(".cakemake").prepend(
         '<div class="candle" ><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/candle.png" /></div>'
     );
-    $("svg").show();
+    $(".svg").show();
     setTimeout(function () {
         $(".sa").fadeIn();
     }, 2200);
